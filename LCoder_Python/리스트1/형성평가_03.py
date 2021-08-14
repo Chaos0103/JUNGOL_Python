@@ -1,0 +1,18 @@
+color = list()
+animal = list()
+
+ch1, ch2 = map(str, input('Input? ').split())
+color.append(ch1)
+animal.append(ch2)
+ch1, ch2 = map(str, input('Input? ').split())
+color.append(ch1)
+animal.append(ch2)
+ch1, ch2 = map(str, input('Input? ').split())
+color.append(ch1)
+animal.append(ch2)
+ch1, ch2 = map(str, input('Input? ').split())
+color.append(ch1)
+animal.append(ch2)
+
+print('Color:', color)
+print('Animal:', animal)
