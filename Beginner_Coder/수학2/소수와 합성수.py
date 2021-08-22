@@ -1,7 +1,7 @@
 num = list(map(int, input().split()))
 
 def prime(num):
-    if num < 1:
+    if num < 2:
         return False
     i = 2
     while i <= (num // i):
